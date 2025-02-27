@@ -1,0 +1,4 @@
+image:
+  repository: "intellifiresystems/angular"
+  tag: "latest"
+  pullPolicy: IfNotPresent

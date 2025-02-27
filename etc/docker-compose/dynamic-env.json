@@ -1,0 +1,25 @@
+{
+  "production": true,
+  "application": {
+    "baseUrl":"http://localhost:4200",
+    "name": "IntelliFireSystems",
+    "logoUrl": ""
+  },
+  "oAuthConfig": {
+    "issuer": "https://localhost:44344/",
+    "redirectUri": "http://localhost:4200",
+    "clientId": "IntelliFireSystems_App",
+    "responseType": "code",
+    "scope": "offline_access openid profile email phone IntelliFireSystems"
+  },
+  "apis": {
+    "default": {
+      "url": "https://localhost:44344",
+      "rootNamespace": "IntelliFireSystems"
+    },
+    "AbpAccountPublic": {
+      "url": "https://localhost:44344",
+      "rootNamespace": "AbpAccountPublic"
+    }
+  }
+}

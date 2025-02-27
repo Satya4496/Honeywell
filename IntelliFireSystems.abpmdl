@@ -1,0 +1,117 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXTheme": {
+      "version": "4.0.5",
+      "isInstalled": true
+    },
+    "Volo.Abp.TextTemplateManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.LanguageManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Gdpr": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.AuditLogging.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Saas": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "IntelliFireSystems.Application": {
+      "path": "src/IntelliFireSystems.Application/IntelliFireSystems.Application.abppkg",
+      "folder": "src"
+    },
+    "IntelliFireSystems.Application.Tests": {
+      "path": "test/IntelliFireSystems.Application.Tests/IntelliFireSystems.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "IntelliFireSystems.Domain.Shared": {
+      "path": "src/IntelliFireSystems.Domain.Shared/IntelliFireSystems.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "IntelliFireSystems.Application.Contracts": {
+      "path": "src/IntelliFireSystems.Application.Contracts/IntelliFireSystems.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "IntelliFireSystems.HttpApi": {
+      "path": "src/IntelliFireSystems.HttpApi/IntelliFireSystems.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "IntelliFireSystems.HttpApi.Client": {
+      "path": "src/IntelliFireSystems.HttpApi.Client/IntelliFireSystems.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "IntelliFireSystems.EntityFrameworkCore.Tests": {
+      "path": "test/IntelliFireSystems.EntityFrameworkCore.Tests/IntelliFireSystems.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "IntelliFireSystems.EntityFrameworkCore": {
+      "path": "src/IntelliFireSystems.EntityFrameworkCore/IntelliFireSystems.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "IntelliFireSystems.TestBase": {
+      "path": "test/IntelliFireSystems.TestBase/IntelliFireSystems.TestBase.abppkg",
+      "folder": "test"
+    },
+    "IntelliFireSystems.Domain.Tests": {
+      "path": "test/IntelliFireSystems.Domain.Tests/IntelliFireSystems.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "IntelliFireSystems.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/IntelliFireSystems.HttpApi.Client.ConsoleTestApp/IntelliFireSystems.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "IntelliFireSystems.DbMigrator": {
+      "path": "src/IntelliFireSystems.DbMigrator/IntelliFireSystems.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "IntelliFireSystems.HttpApi.Host": {
+      "path": "src/IntelliFireSystems.HttpApi.Host/IntelliFireSystems.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "IntelliFireSystems.Domain": {
+      "path": "src/IntelliFireSystems.Domain/IntelliFireSystems.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

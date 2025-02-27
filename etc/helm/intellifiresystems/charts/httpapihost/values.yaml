@@ -1,0 +1,4 @@
+image:
+  repository: "intellifiresystems/httpapihost"
+  tag: "latest"
+  pullPolicy: IfNotPresent
